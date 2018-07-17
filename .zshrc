@@ -87,7 +87,18 @@ source $ZSH/oh-my-zsh.sh
 
 alias freemem="sync; echo 2 | sudo tee /proc/sys/vm/drop_caches"
 alias wspc="cd ~/Workspace"
+alias docs="cd ~/Documentos"
+alias todo="vi ~/Documentos/todo.wiki"
 
+mon()
+{
+    xrandr --output eDP1 --brightness $1
+}
+
+hdmi()
+{
+    xrandr --output HDMI1 --brightness $1
+}
 
 gitpick_commit()
 {
