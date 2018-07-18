@@ -6,6 +6,9 @@ sudo pacman-mirrors -g
 # Updating packages
 sudo pacman -Syyu
 
+# Install firefox
+sudo pacman -S firefox
+
 # Install pacaur
 sudo pacman -S expac yajl --noconfirm
 mkdir ~/temp
@@ -17,6 +20,9 @@ curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=pacaur
 makepkg -i PKGBUILD --noconfirm
 cd ~
 rm -r ~/temp
+
+# Install yadm
+pacaur -S yadm-git
 
 # Installing chrome
 pacaur -S google-chrome
