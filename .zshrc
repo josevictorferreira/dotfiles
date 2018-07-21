@@ -138,3 +138,5 @@ export TERM=xterm-256color
 export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'gedit'; else echo 'nvim'; fi)"
 
 . $HOME/.asdf/asdf.sh
+alias keybr='sudo setxkbmap -layout br'
+alias keyus='sudo setxkbmap -layout us'

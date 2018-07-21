@@ -3,6 +3,7 @@ width = 100%
 height = 27
 radius = 0
 fixed-center = false
+monitor = ${env:MONITOR:}
 
 background = #1e1e20
 foreground = #c5c8c6
