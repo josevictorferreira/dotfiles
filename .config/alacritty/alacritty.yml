@@ -63,7 +63,7 @@ font:
   normal:
     family: Space Mono # should be "Menlo" or something on macOS.
     style: Regular
-    options: { size: 12 }
+    options: { size: 11 }
     # Style can be specified to pick a specific face.
     # style: Regular
 
@@ -71,7 +71,7 @@ font:
   bold:
     family: Space Mono
     style: Bold
-    options: { size: 12 }
+    options: { size: 11 }
     # Style can be specified to pick a specific face.
     # style: Bold
 
@@ -79,12 +79,12 @@ font:
   italic:
     family: Space Mono
     style: Italic
-    options: { size: 12 }
+    options: { size: 11 }
     # Style can be specified to pick a specific face.
     # style: Italic
 
   # Point size of the font
-  size: 12.0
+  size: 11.0
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
