@@ -131,6 +131,7 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/.config/composer/vendor/bin
 export PATH=$PATH:$HOME/skim/skim/release
 export PATH=$PATH:$HOME/.composer/vendor/bin
+export PATH=$PATH:/home/josevictor/.asdf/installs/python/3.6.6/bin
 
 
 export TERM=xterm-256color
@@ -140,3 +141,7 @@ export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'gedit'; else echo 'nvim'; fi)"
 . $HOME/.asdf/asdf.sh
 alias keybr='sudo setxkbmap -layout br'
 alias keyus='sudo setxkbmap -layout us'
+
+. $HOME/.asdf/asdf.sh
+
+. $HOME/.asdf/completions/asdf.bash

@@ -13,7 +13,7 @@ font xft:URWGothic-Book 11
 
 floating_modifier $mod
 
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec tilix
 
 # Window kill command
 bindsym $mod+Shift+q kill
@@ -217,6 +217,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /$HOME/.config/polybar/i3wmthemer_bar_launch.sh
 exec_always --no-startup-id /$HOME/update-time.sh
+exec_always --no-startup-id setxkbmap -layout br -option caps:escape
 
 # Theme colors
 client.focused #cbd1cd #1e1e20 #cbd1cd #cbd1cd #cbd1cd
@@ -269,3 +270,14 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+#bar {
+        #status_command i3status
+        #tray_output primary
+        #position top
+        #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+        #font pango:Space Mono 11
+        #i3bar_command i3bar -t
+        #height 30
+#}
+

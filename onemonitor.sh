@@ -10,4 +10,4 @@ xrandr --output HDMI1 --same-as eDP1
 ${HOME}/.config/polybar/i3wmthemer_bar_launch.sh
 
 # Set keyboard layout
-sudo setxkbmap -layout br
+setxkbmap -layout br -option caps:escape
